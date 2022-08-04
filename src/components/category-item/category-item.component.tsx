@@ -1,4 +1,4 @@
-import "./category.item.styles.scss"
+import "./category.item.styles.scss";
 
 const CategoryItem = ({ category }:{ category: any}) => {
   const { imageUrl, title } = category;
@@ -12,7 +12,7 @@ const CategoryItem = ({ category }:{ category: any}) => {
         <p>Shop Now</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CategoryItem
+export default CategoryItem;
