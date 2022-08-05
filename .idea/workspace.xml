@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a177643-1e42-4e5c-a665-002934584ce6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/asseets/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/home/home.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/sign-in/sign-in.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/authentication/authentication.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/category-item/category-item.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/category-item/category-item.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sign-in/sign-in.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/authentication/authentication.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -52,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/xcalibur/WebstormProjects/cloth-shop/public",
+    "last_opened_file_path": "/Users/xcalibur/WebstormProjects/cloth-shop/src/components",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -67,15 +67,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/button" />
       <recent name="$PROJECT_DIR$/src/routes/navigation" />
       <recent name="$PROJECT_DIR$/src/asseets" />
       <recent name="$PROJECT_DIR$/src/routes" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/navigation" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -102,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659494780229</updated>
       <workItem from="1659494782097" duration="96000" />
-      <workItem from="1659494888732" duration="10718000" />
+      <workItem from="1659494888732" duration="21350000" />
     </task>
     <servers />
   </component>
