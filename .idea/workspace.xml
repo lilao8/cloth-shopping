@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a177643-1e42-4e5c-a665-002934584ce6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contexts/user.context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form-input/form-input.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form-input/form-input.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asseets/shopping-bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icons.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icons.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/product-card/product-card.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/product-card/product-card.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/cart.context.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/products.context.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/shop/shop.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/shop/shop.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="TypeScript File" />
         <option value="SCSS File" />
         <option value="TypeScript JSX File" />
@@ -67,11 +77,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/asseets" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/button" />
       <recent name="$PROJECT_DIR$/src/routes/navigation" />
-      <recent name="$PROJECT_DIR$/src/asseets" />
       <recent name="$PROJECT_DIR$/src/routes" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -98,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659494780229</updated>
       <workItem from="1659494782097" duration="96000" />
-      <workItem from="1659494888732" duration="25898000" />
+      <workItem from="1659494888732" duration="29964000" />
     </task>
     <servers />
   </component>
