@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a177643-1e42-4e5c-a665-002934584ce6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/checkout/checkout.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/checkout/checkout.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/category-preview/category-preview.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/category-preview/category-preview.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/categories.context.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/category/category.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/category/category.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icons.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icons.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/product-card/product-card.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-card/product-card.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contexts/cart.context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/cart.context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/products.context.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/shop/shop.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/shop/shop.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659494780229</updated>
       <workItem from="1659494782097" duration="96000" />
-      <workItem from="1659494888732" duration="38078000" />
+      <workItem from="1659494888732" duration="42830000" />
     </task>
     <servers />
   </component>
