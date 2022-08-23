@@ -1,42 +1,42 @@
-import { Fragment, useContext } from "react";
-import { Outlet, Link } from "react-router-dom";
+import { useContext } from "react";
+import { Outlet } from "react-router-dom";
 import CartIcon from "../../components/cart-icon/cart-icons.component";
 import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
-import { ReactComponent as Logo } from "../../asseets/logo.svg";
+import { ReactComponent as ClothLogo } from "../../asseets/logo.svg";
 import { UserContext } from "../../contexts/user.context";
 import { CartContext } from "../../contexts/cart.context";
-import "../navigation/navigation.styles.scss";
+import { NavigationContainer, NavLink, NavLinks, Logo } from "./navigation.styles";
 import { signOutUser} from "../../utils/firebase/firebase.utils";
 
 const Navigation = () => {
   const { currentUser } = useContext(UserContext);
   const { isCartOpen } = useContext(CartContext);
   return (
-    <Fragment>
-      <div className="navigation">
-        <Link className="logo-container" to="/">
-          <Logo className="logo" />
-        </Link>
-        <div className="nav-links-container">
-          <Link className="nav-link" to="/shop">
+    <>
+      <NavigationContainer>
+        <Logo to="/">
+          <ClothLogo className="logo" />
+        </Logo>
+        <NavLinks>
+          <NavLink to="/shop">
             SHOP
-          </Link>
+          </NavLink>
           {
             currentUser ? (
-              <span className="nav-link" onClick={signOutUser}>
+              <NavLink as='span' onClick={signOutUser}>
                 SIGN OUT
-              </span>
+              </NavLink>
             ) : (
-              <Link className="nav-link" to="/auth">
+              <NavLink to="/auth">
                 SIGN IN
-              </Link>
+              </NavLink>
             )}
           <CartIcon />
-        </div>
+        </NavLinks>
         {isCartOpen && <CartDropdown />}
-      </div>
+      </NavigationContainer>
       <Outlet />
-    </Fragment>
+    </>
   );
 };
 
