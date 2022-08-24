@@ -23,7 +23,7 @@ export const Body = styled.div`
 
   h2 {
     font-weight: bold;
-    margin: 0 6px 0;
+    margin: 0 6px;
     font-size: 22px;
     color: #4a4a4a;
     text-transform: uppercase;
