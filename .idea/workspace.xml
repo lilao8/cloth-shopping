@@ -5,27 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a177643-1e42-4e5c-a665-002934584ce6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/categories/category.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/categories/category.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/categories/category.selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/categories/category.types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/root-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/user/user.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/user/user.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/user/user.selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/user/user.types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/reducer/reducer.util.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cart/cart.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cart/cart.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cart/cart.selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cart/cart.types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contexts/cart.context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/cart.context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contexts/user.context.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icons.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icons.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product-card/product-card.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-card/product-card.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/cart.context.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/category/category.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/category/category.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/checkout/checkout.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/checkout/checkout.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/shop/shop.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/shop/shop.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/categories/category.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/categories/category.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/categories/category.selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/categories/category.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +119,9 @@
       <workItem from="1659494782097" duration="96000" />
       <workItem from="1659494888732" duration="43039000" />
       <workItem from="1660960631539" duration="11167000" />
-      <workItem from="1662828619938" duration="9140000" />
+      <workItem from="1662828619938" duration="9332000" />
+      <workItem from="1663105178980" duration="3264000" />
+      <workItem from="1663876785561" duration="5305000" />
     </task>
     <servers />
   </component>

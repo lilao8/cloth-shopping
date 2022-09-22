@@ -33,9 +33,11 @@ export const signInWithGooglePopup = () => signInWithPopup(auth, provider);
 
 export const db = getFirestore();
 
-export const addCollectionAndDocuments = async (collectionKey: string, objectsToAdd: any) => {
-  const collectionRef = collection(db, collectionKey);
-  const batch = writeBatch(db);
+export const addCollectionAndDocuments = async (
+  collectionKey: string, objectsToAdd: any, field:any
+  ) => {
+        const collectionRef = collection(db, collectionKey);
+        const batch = writeBatch(db);
 
   objectsToAdd.forEach((object:any) => {
     const docRef = doc(collectionRef, object.title.toLowerCase());
@@ -52,13 +54,7 @@ export const getCategoriesAndDocuments = async () => {
 
   // @ts-ignore
   const querySnapshot = await getDocs(q);
-  const categoryMap = querySnapshot.docs.reduce((acc, docSnapshot) => {
-    const { title, items } = docSnapshot.data();
-    // @ts-ignore
-    acc[title.toLowerCase()] = items;
-    return acc;
-  }, {});
-  return categoryMap
+  return querySnapshot.docs.map(docSnapshot => docSnapshot.data());
 }
 
 export const createUserDocumentFromAuth = async (userAuth:any, additionalInformation={}) => {
