@@ -3,7 +3,6 @@ import FormInput from "../../components/form-input/form-input.component";
 import Button, { BUTTON_TYPE_CLASSES } from "../../components/button/button.component";
 
 import {
-  createUserDocumentFromAuth,
   signInWithGooglePopup,
   signInAuthUserWithEmailAndPassword
 } from "../../utils/firebase/firebase.utils";

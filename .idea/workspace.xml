@@ -5,30 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a177643-1e42-4e5c-a665-002934584ce6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/cart/cart.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cart/cart.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cart/cart.selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/cart/cart.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spinner/spinner.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spinner/spinner.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/middleware/logger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icons.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icons.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/product-card/product-card.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-card/product-card.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contexts/cart.context.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/category/category.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/category/category.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/checkout/checkout.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/checkout/checkout.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/category/category.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/category/category.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/category/category.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/category/category.styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/shop/shop.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/shop/shop.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/categories/category.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/categories/category.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/categories/category.selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.selector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/categories/category.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/root-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +80,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/spinner" />
       <recent name="$PROJECT_DIR$/src/asseets" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/button" />
       <recent name="$PROJECT_DIR$/src/routes/navigation" />
-      <recent name="$PROJECT_DIR$/src/routes" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -121,7 +115,9 @@
       <workItem from="1660960631539" duration="11167000" />
       <workItem from="1662828619938" duration="9332000" />
       <workItem from="1663105178980" duration="3264000" />
-      <workItem from="1663876785561" duration="5305000" />
+      <workItem from="1663876785561" duration="5958000" />
+      <workItem from="1664420103053" duration="2996000" />
+      <workItem from="1664915377905" duration="3037000" />
     </task>
     <servers />
   </component>
