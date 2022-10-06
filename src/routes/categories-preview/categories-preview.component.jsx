@@ -19,6 +19,6 @@ const CategoriesPreview = () => {
       }
     </>
   )
-}
+};
 
 export default CategoriesPreview;
