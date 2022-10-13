@@ -1,5 +1,5 @@
-// @ts-ignore
 import styled from "styled-components";
+
 import {
   BaseButton,
   GoogleSignInButton,

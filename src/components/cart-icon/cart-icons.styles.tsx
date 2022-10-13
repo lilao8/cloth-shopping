@@ -1,4 +1,3 @@
-// @ts-ignore
 import styled from "styled-components";
 import { ReactComponent as ShoppingSvg } from "../../asseets/shopping-bag.svg";
 
