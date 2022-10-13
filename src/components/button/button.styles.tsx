@@ -1,6 +1,5 @@
-// @ts-ignore
 import styled from "styled-components";
-// @ts-ignore
+
 import { SpinnerContainer } from "../spinner/spinner.styles";
 
 export const BaseButton = styled.button`
